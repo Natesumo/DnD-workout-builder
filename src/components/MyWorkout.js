@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default class WorkoutList extends React.Component {
+export default class MyWorkout extends React.Component {
     constructor(props) {
         super(props);
 
