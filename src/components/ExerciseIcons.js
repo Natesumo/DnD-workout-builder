@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 import basketball from '../img/basketball.png';
 import benchpress from '../img/benchpress.png';
 import bike from '../img/bike.png';

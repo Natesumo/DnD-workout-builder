@@ -1,45 +1,27 @@
 import React from 'react';
+import styled from 'styled-components';
+import Task from './task';
 
-export default class MyWorkout extends React.Component {
-    constructor(props) {
-        super(props);
+const Container = styled.div`
+    margin: 8px;
+    border: 1px solid lightgrey;
+    border-radius: 2px;
+`;
+const Title = styled.h3`
+    padding: 8px;
+`;
+const TaskList = styled.div`
+    padding: 8px;
+`;
 
-        this.state = {
-            userInput: '',
-            list: []
-        }
-    }
 
-    changeUserInput(input) {
-        this.setState({
-            userInput: input
-        }, ()=> console.log(input))
-    }
-
-    addToList(input){
-        let listArray = this.state.list;
-        listArray.push(input);
-        this.setState({
-            list: listArray,
-            userInput: ''
-        })
-    }
-
+export default class Column extends React.Component {
     render() {
-        return (
-            <div className="workout-list">
-                <input 
-                    onChange={ (e)=>this.changeUserInput(e.target.value) }
-                    value={this.state.userInput} 
-                    type="text" 
-                />
-                <button onClick={ ()=> this.addToList(this.state.userInput)}>
-                        Add Workout
-                </button>
-                <ul>
-                    {this.state.list.map( (val)=> <li key={val}>{val}</li> )}
-                </ul>
-            </div>
+        return(
+            <Container>
+                <Title>{this.props.column.title}</Title>
+                <TaskList>{this.props.tasks.map(task => <Task key={task.id} task={task} />)}</TaskList>
+            </Container>
         )
     }
 };
