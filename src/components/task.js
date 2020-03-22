@@ -23,6 +23,8 @@ const Container = styled.div`
     h2 {
         display: flex;
         justify-content: center;
+        padding-left: 22px;
+        padding-right 22px;
     }
 `;
 
