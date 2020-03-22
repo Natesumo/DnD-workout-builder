@@ -4,23 +4,26 @@ import { Droppable } from 'react-beautiful-dnd';
 import Task from './task';
 
 const Container = styled.div`
-    margin: 8px;
-    border: 3px solid lightgrey;
+    margin: 8px; 
+    border: 3px solid #038EAC;
     border-radius: 2px;
     width: 100%;
+    margin-top: 24px;
 
     display: flex;
     flex-direction: column;
 `;
 const Title = styled.h3`
-    padding: 8px;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
     color: white;
 `;
 const TaskList = styled.div`
     padding: 8px;
     flex-grow: 1;
-    transition: background-color 0.2s ease;
-    background-color: ${props => (props.isDraggingOver ? '#FF4F00' : '#181A1B')}
+    transition: background-color 0.8s ease;
+    background-color: ${props => (props.isDraggingOver ? '#024059' : '#181A1B')}
 `;
 
 

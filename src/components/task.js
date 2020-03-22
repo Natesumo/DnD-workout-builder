@@ -4,16 +4,16 @@ import { Draggable } from 'react-beautiful-dnd';
 
 const Container = styled.div`
     display: flex;
-    color: white;
+    color: black;
     justify-content: space-between;
     align-items: center;
     background-color: #181A1B;
-    border: 3px solid #038EAC;
+    border: 3px solid black;
     border-radius: 2px;
     padding: 8px;
     margin-bottom: 8px;
-    transition: background-color 0.2s ease;
-    background-color: ${props => (props.isDragging ? 'Darkgreen' : '#181A1B')};
+    transition: background-color 0.8s ease;
+    background-color: ${props => (props.isDragging ? '#0378A6' : '#024059')};
     @media only screen and (max-width: 600px) {
         img {
             display: none;

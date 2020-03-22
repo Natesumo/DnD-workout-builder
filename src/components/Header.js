@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import { render } from '@testing-library/react';
 
 const Container = styled.div`
 html {
@@ -34,6 +33,7 @@ html {
 
   li{
       color: white;
+      font-size: 16px;
   }
   
   nav {
