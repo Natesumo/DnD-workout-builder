@@ -13,108 +13,108 @@ import treadmill from '../img/treadmill.png';
 import yoga from '../img/yoga.png';
 import basketball from '../img/basketball.png';
 
-const startingData = {
+const initialData = {
     tasks: {
         'task-1':
         {
         name: "basketball",
-        taskId: "1",
+        id: "task-1",
         image: basketball
         },
         'task-2':
         {
         name: "benchpress",
-        taskId: "2",
+        id: "task-2",
         image: benchpress
         },
         'task-3':
         {
         name: "bike",
-        taskId: "3",
+        id: "task-3",
         image: bike
         },
         'task-4':
         {
         name: "boxing",
-        taskId: "4",
+        id: "task-4",
         image: boxing
         },
         'task-5':
         {
         name: "dumbbells",
-        taskId: "5",
+        id: "task-5",
         image: dumbbells
         },
         'task-6':
         {
         name: "exercisebike",
-        taskId: "6",
+        id: "task-6",
         image: exercisebike
         },
         'task-7':
         {
         name: "kettlebell",
-        taskId: "7",
+        id: "task-7",
         image: kettlebell
         },
         'task-8':
         {
         name: "pilates",
-        taskId: "8",
+        id: "task-8",
         image: pilates
         },
         'task-9':
         {
         name: "pullups",
-        taskId: "9",
+        id: "task-9",
         image: pullups
         },
         'task-10':
         {
         name: "pushups",
-        taskId: "10",
+        id: "task-10",
         image: pushups
         },
         'task-11':
         {
         name: "running",
-        taskId: "11",
+        id: "task-11",
         image: running
         },
         'task-12':
         {
         name: "tennis",
-        taskId: "12",
+        id: "task-12",
         image: tennis
         },
         'task-13':
         {
         name: "treadmill",
-        taskId: "13",
+        id: "task-13",
         image: treadmill
         },
         'task-14':
         {
         name: "yoga",
-        taskId: "14",
+        id: "task-14",
         image: yoga
         },   
     },
     columns: {
         'column-1':
         {
-            title: "My Workout",
+            title: "Exercise List",
             id: "column-1",
-            taskIds: []
+            taskIds: ['task-1', 'task-2', 'task-3', 'task-4', 'task-5', 'task-6', 'task-7', 'task-8', 'task-9', 'task-10', 'task-11', 'task-12', 'task-13', 'task-14' ],
         },
         'column-2':
         {
-            title: "Exercise List",
+            title: "My Workout",
             id: "column-2",
-            taskIds: ['task-1', 'task-2', 'task-3', 'task-4', 'task-5', 'task-6', 'task-7', 'task-8', 'task-9', 'task-10', 'task-11', 'task-12', 'task-13', 'task-14' ]
+            taskIds: [],
         },
     },
-    columnOrder: ['column-1', 'column-2'],
+    columnOrder: ['column-2', 'column-1'],
 };
 
-export default startingData;
+export default initialData;
