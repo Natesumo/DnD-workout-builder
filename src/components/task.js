@@ -8,12 +8,12 @@ const Container = styled.div`
     justify-content: space-between;
     align-items: center;
     background-color: #181A1B;
-    border: 3px solid black;
-    border-radius: 2px;
+    border: 4px solid black;
+    border-radius: 6px;
     padding: 8px;
     margin-bottom: 8px;
     transition: background-color 0.8s ease;
-    background-color: ${props => (props.isDragging ? '#0378A6' : '#024059')};
+    background-color: ${props => (props.isDragging ? '#5653A6' : '#F2F2F2')};
     @media only screen and (max-width: 600px) {
         img {
             display: none;
@@ -21,6 +21,7 @@ const Container = styled.div`
         justify-content: center;
     }
     h2 {
+        font-size: 36px;
         display: flex;
         justify-content: center;
         padding-left: 22px;

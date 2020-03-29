@@ -5,25 +5,28 @@ import Task from './task';
 
 const Container = styled.div`
     margin: 8px; 
-    border: 3px solid #038EAC;
-    border-radius: 2px;
+    border: 4px solid black;
+    border-radius: 6px;
     width: 100%;
     margin-top: 24px;
 
     display: flex;
     flex-direction: column;
 `;
-const Title = styled.h3`
-    font-size: 28px;
+const Title = styled.div`
+    padding: 22px;
+    font-size: 32px;
+    color: #F2F2F2;
+    background-color: #181A1B;
     display: flex;
     justify-content: center;
-    color: white;
+    
 `;
 const TaskList = styled.div`
     padding: 8px;
     flex-grow: 1;
     transition: background-color 0.8s ease;
-    background-color: ${props => (props.isDraggingOver ? '#024059' : '#181A1B')}
+    background-color: ${props => (props.isDraggingOver ? '#82BF45' : '#181A1B')}
 `;
 
 

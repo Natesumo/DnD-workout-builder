@@ -12,7 +12,7 @@ html {
   
   body {
     font-family: sans-serif;
-    color: 'white';
+    color: #024059;
     margin: 0;
   }
   
@@ -32,13 +32,14 @@ html {
   }
 
   li{
-      color: white;
-      font-size: 16px;
+      color: #F2F2F2;
+      font-size: 22px;
   }
   
   nav {
-    background-color: '#181A1B';
-    border: 3px solid #038EAC;
+    background-color: #181A1B;
+    border: 4px solid black;
+    border-radius: 6px;
   }
   
   a {

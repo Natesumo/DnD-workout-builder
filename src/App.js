@@ -7,7 +7,7 @@ import Header from './components/Header';
 
 const Container = styled.div`
   display: flex;
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 900px) {
   flex-direction: column;
   }
 `
