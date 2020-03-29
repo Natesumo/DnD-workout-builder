@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/DnD-workout-builder/static/css/main.a3638d16.chunk.css",
-    "main.js": "/DnD-workout-builder/static/js/main.a9a7e0dd.chunk.js",
-    "main.js.map": "/DnD-workout-builder/static/js/main.a9a7e0dd.chunk.js.map",
+    "main.css": "/DnD-workout-builder/static/css/main.1a277f80.chunk.css",
+    "main.js": "/DnD-workout-builder/static/js/main.9d899954.chunk.js",
+    "main.js.map": "/DnD-workout-builder/static/js/main.9d899954.chunk.js.map",
     "runtime-main.js": "/DnD-workout-builder/static/js/runtime-main.061d762a.js",
     "runtime-main.js.map": "/DnD-workout-builder/static/js/runtime-main.061d762a.js.map",
     "static/js/2.1a6d3038.chunk.js": "/DnD-workout-builder/static/js/2.1a6d3038.chunk.js",
     "static/js/2.1a6d3038.chunk.js.map": "/DnD-workout-builder/static/js/2.1a6d3038.chunk.js.map",
     "index.html": "/DnD-workout-builder/index.html",
-    "precache-manifest.d2ccd54ef071d6bb8a63e2ecdb70494b.js": "/DnD-workout-builder/precache-manifest.d2ccd54ef071d6bb8a63e2ecdb70494b.js",
+    "precache-manifest.0dccbee87dc065243c3114f6c6294d75.js": "/DnD-workout-builder/precache-manifest.0dccbee87dc065243c3114f6c6294d75.js",
     "service-worker.js": "/DnD-workout-builder/service-worker.js",
-    "static/css/main.a3638d16.chunk.css.map": "/DnD-workout-builder/static/css/main.a3638d16.chunk.css.map",
+    "static/css/main.1a277f80.chunk.css.map": "/DnD-workout-builder/static/css/main.1a277f80.chunk.css.map",
     "static/js/2.1a6d3038.chunk.js.LICENSE.txt": "/DnD-workout-builder/static/js/2.1a6d3038.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.061d762a.js",
     "static/js/2.1a6d3038.chunk.js",
-    "static/css/main.a3638d16.chunk.css",
-    "static/js/main.a9a7e0dd.chunk.js"
+    "static/css/main.1a277f80.chunk.css",
+    "static/js/main.9d899954.chunk.js"
   ]
 }
